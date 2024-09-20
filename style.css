@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navIcon {
+    width: 3rem;
+  }
+  
+  .heroSection {
+    height: 90vh;
+    background-image: url("https://media.istockphoto.com/id/506514230/photo/beard-grooming.jpg?s=612x612&w=0&k=20&c=QDwo1L8-f3gu7mcHf00Az84fVU8oNpQLgvUw6eGPEkc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #00000086;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    width: 25rem;
+    text-align: center;
+    width: 80%;
+  }
+  .para {
+    font-size: 16px;
+    color: #c4c4c4;
+    font-weight: bold;
+    width: 55%;
+    text-align: center;
+  }
+  .bookingBTn {
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .barbersContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+  .cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .card {
+    width: 18rem;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    gap: 5rem;
+  }
+  .barberImg {
+    width: 100%;
+  }
+  
+  .socialmediaimg{
+    width: 2rem;
+  }
+
+  .awards{
+    background-color:#9EC5B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .awards h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .awardsimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    
+  }
+
+  .registrationform{
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/id/506514230/photo/beard-grooming.jpg?s=612x612&w=0&k=20&c=QDwo1L8-f3gu7mcHf00Az84fVU8oNpQLgvUw6eGPEkc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .namenmail{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none
+    outline:none;
+    font-size:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:1rem;
+    width:100%;
+  }
+
+
+  .numberndate{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none
+    outline:none;
+    font-size:14px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:1rem;
+    width:100%;
+  }
+
+  .input{
+    width: 1000px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    background-color: #9EC5B8;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10rem 0;
+    gap:1rem;
+    
+  }
+
+ 
+  .inputfield{
+    width: 50%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    width:100%;
+    height:200px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtn{
+    background-color: black;
+    color: #ffffff;
+    width: 25rem;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+@media(max-width:941px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+      .cardContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+      
+  .awardsimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 1rem 0;
+    
+  }
+
+    }
+    
+
+
+
+
