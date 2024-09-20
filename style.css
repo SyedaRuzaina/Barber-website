@@ -136,7 +136,7 @@
   .namenmail{
     padding: 15px 10px;
     border-radius: 5px;
-    border: none
+    border: none;
     outline:none;
     font-size:20px;
     display:flex;
@@ -150,7 +150,7 @@
   .numberndate{
     padding: 15px 10px;
     border-radius: 5px;
-    border: none
+    border: none;
     outline:none;
     font-size:14px;
     display: flex;
@@ -229,6 +229,7 @@
       font-weight: bold;
       width: 100%;
       text-align: start;
+      padding: 10px;
     }
 
     .para {
@@ -237,8 +238,13 @@
       font-weight: bold;
       width: 100%;
       text-align: start;
+      padding: 10px;
       
     }
+
+    /* .para, .heading{
+      padding: 10px;
+    } */
     
       .cardContainer {
         display: flex;
